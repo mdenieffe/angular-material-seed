@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatButtonModule} from '@angular/material';
+import {MatButtonModule, MatToolbarModule} from '@angular/material';
 import {MatProgressSpinnerModule} from '@angular/material';
 
 
@@ -16,7 +16,8 @@ import {MatProgressSpinnerModule} from '@angular/material';
     BrowserModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    MatToolbarModule
   ],
   bootstrap: [AppComponent]
 })
