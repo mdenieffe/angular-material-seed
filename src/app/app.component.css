@@ -1,0 +1,13 @@
+.navigation, .main-content {
+  margin: 10px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-content {
+  padding: 10px;
+  background-color: lightgray;
+}
